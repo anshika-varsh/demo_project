@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glowing Effect Styles */
+.glow {
+  position: relative;
+}
+
+.glow::after {
+  pointer-events: none;
+}
